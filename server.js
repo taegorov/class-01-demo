@@ -1,7 +1,8 @@
 'use strict';
 
-// import a dependency (code we did not write).
+// import a third party dependency (code we did not write).
 const express = require('express');
+// imports a local dependency (code we wrote ourselves).
 const Person = require('./Person.js');
 
 const app = express();
