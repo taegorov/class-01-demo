@@ -1,6 +1,7 @@
 'use strict';
 // your entry point
 
+require('dotenv').config();
 const server = require('./server.js');
 
 // What is Node?
@@ -19,4 +20,6 @@ const server = require('./server.js');
 
 // console.log(process);
 
-server.listen(3000, () => console.log('Server is running'));
+const PORT = process.env.PORT || 3000;
+
+server.listen(PORT, () => console.log('Server is running'));
