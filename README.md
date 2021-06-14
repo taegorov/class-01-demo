@@ -1,4 +1,10 @@
 # class-01-demo
 
-Demo Repo for Code 401 Labs
+Simple express server with one route that responds with a message.
 
+## Routes
+
+### /
+
+* No params
+* Text response: 'thanks'
