@@ -2,6 +2,8 @@
 
 Simple express server with one route that responds with a message.
 
+![simple express app](UML.png)
+
 ## Routes
 
 ### /
