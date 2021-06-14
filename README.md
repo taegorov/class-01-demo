@@ -6,5 +6,12 @@ Simple express server with one route that responds with a message.
 
 ### /
 
-* No params
-* Text response: 'thanks'
+* No parameters
+* JSON response: {"message":"thanks"}
+
+
+### /data
+
+* No parameter
+* JSON response: Person
+  * Person includes name and age.
